@@ -1,0 +1,83 @@
+.container1 {
+  background-color: rgb(74, 64, 83);
+  height: 9vh;
+  padding: 1px;
+  justify-self: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  min-height: 4vh;
+  margin-top: 30px;
+  min-width: 100vh;
+  margin-bottom: 30px;
+}
+
+.group {
+  display: "flex";
+  flex-direction: "row";
+  width: 50vh;
+  height: 55vh;
+  background-color: rgb(243, 231, 231);
+  align-self: center;
+  justify-content: "center";
+  padding: 1em;
+  border: 10px solid yellowgreen;
+  box-sizing: border-box;
+  margin: 1em;
+  color: black;
+}
+
+.group-container {
+  border: 1px solid red;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 193vh;
+  margin-left: 0.5em;
+}
+
+div > .group {
+  border: 1px solid blue;
+  flex: 1 1 auto;
+}
+
+.imageContainer {
+  /* display: 'flex'; */
+  justify-content: "center";
+  margin-left: "15px";
+  margin-top: "15px";
+}
+
+.pic {
+  text-align: center;
+}
+
+.each-slide {
+  display: flex;
+  width: 100%;
+  height: "500px";
+}
+
+.each-slide > div {
+  width: 75%;
+}
+
+.each-slide > div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.each-slide p {
+  width: 25%;
+  font-size: 3em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #020203;
+  color: bisque;
+}
